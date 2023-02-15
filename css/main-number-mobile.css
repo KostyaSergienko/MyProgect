@@ -24,20 +24,20 @@
     .subject-text {
         font-weight: 700;
         font-size: 16px;
-        line-height: 20px;
+        line-height: 1.25;
     }
 
     .info-text{
         font-weight: 700;
         font-size: 16px;
-        line-height: 20px;
+        line-height: 1.25;
 
     }
 
     .subtitle-text{
         font-weight: 700;
         font-size: 16px;
-        line-height: 20px;
+        line-height: 1.25;
     }
 
 
@@ -47,4 +47,41 @@
         gap: 16px;
     }
 
+}
+
+@media screen and (min-width: 320px) and (max-width: 413px){
+    .subject{
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .subject-text{
+        font-size: 14px;
+        line-height: 1.25;
+    }
+
+    .subtitle{
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .info-text{
+        font-size: 14px;
+        line-height: 1.25;
+    }
+
+    .subtitle-text{
+        font-size: 14px;
+        line-height: 1.25;
+    }
+
+    .btn{
+        font-size: 13px;
+        line-height: 1.1;
+    }
+
+    .return{
+        font-size: 13px;
+        line-height: 1.1;
+    }
 }
